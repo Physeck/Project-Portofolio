@@ -1,0 +1,5 @@
+2602095902 Justin Tjandra -   Memberikan ide mengenai bagan2 coding (HUD, Bugs), Mengcode bagian movement key, board, menu, file scoring
+
+2602097731 Julian Saputra -   Melakukan coding untuk membuat snake, mekanik snake, posisi buah (O), dan rules pada snake serta berbagai function lainnya yang ada
+
+2602062614 Jeffrey Surianto - Penjelasan tentang bagaimana code dapat berjalan, Memberikan ide mengenai bug yang ada
