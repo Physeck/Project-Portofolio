@@ -1,0 +1,106 @@
+<link rel="stylesheet" href="./reservation.css">
+<link rel="stylesheet" href="../index.css">
+<!-- <link rel="stylesheet" href="header.css"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../index.js"></script>
+
+    <div class="header">
+        <div class="header-logo">
+            <a><img src="../../assets/headerfix-logo.png" /></a>
+        </div>
+        <div class="header-navigation">
+            <div class="fontPop header-page-btn" id="header-page-btn">
+                <a href="./../home/home.html">Home</a>
+                <a href="./../rooms/rooms.html">Rooms</a>
+                <a href="./../facilities/facilities.html">Facilities</a>
+                <a href="./../about/about.html">About us</a>
+            </div>
+            <div class="header-reserve-btn">
+                <button>
+                    <a href="../reservation/reservation.html">RESERVE</a>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="container">
+            <img src="../../assets/reserve bg.jpg" class="resize" />
+            <div class="rectangle">
+                <label class="fontPop bf">Before you reserve</label>
+                <label class="fontPop pls">Please Provide Your Information</label>
+                <div class="fontPop login">
+                    <div>
+                        <label class="email">Email</label>
+                        <input type="text" name="email" class="input-form" placeholder="Type email here" id="email" />
+                        <p id="erroremail" class="errormsg"></p>
+                    </div>
+
+                    <div>
+                        <label class="name">Name</label>
+                        <input type="text" name="username" class="input-form" placeholder="Type name here" id="name" />
+                        <p id="errorusername" class="errormsg"></p>
+                    </div>
+
+                    <div>
+                        <label class="cid">Check-In Date</label>
+                        <input type="Date" class="input-form" id="CID">
+                        <p id="errorcid" class="errormsg"></p>
+                    </div>
+
+                    <div>
+                        <label class="cod">Check-Out Date</label>
+                        <input type="Date" class="input-form" id="COD">
+                        <p id="errorcod" class="errormsg"></p>
+                    </div>
+
+                    <div class="input-container">
+                        <label class="roomtype">Room Type</label>
+                        <select name="roomtype" class="input-form" id="roomtype">
+                            <option value="" disabled selected>Select room type</option>
+                            <option value="single">Two Queen Standard</option>
+                            <option value="double">The Standard King</option>
+                            <option value="suite">Luxurious Suite</option>
+                        </select>
+                        <div class="polygon"></div>
+                    </div>
+                    <button type="button" class="input-form-book" onclick="validateForm()">BOOK</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id='footer' class='footer'></div>
+
+    <div class="footer">
+        <div class="footer-bar">
+            <p class="cpr fontPop">Copyright © 2023 VhoTel</p>
+
+            <div class="footer-icon">
+                <img src="../../assets/FacebooVector.png" class="img1" />
+                <img src="../../assets/mdi_instagram.png" class="img2" />
+            </div>
+            <img src="../../assets/headerfix-logo.png" class="img3" />
+            <div class="quote">
+                <p class="fontPop">Legendary Hotel in Jakarta<br> Established Since <span class="redHL">1999</span> </p>
+            </div>
+
+            <div class="fontTNR footer-txt">
+                <a>hello@vhotel.com</a>
+                <a>+62-8371-9583-9283</a>
+                <a>Jl. X No. 123, Jakarta, Indonesia</a>
+            </div>
+        </div>
+    </div>
+
+
+</head>
+
+</html>

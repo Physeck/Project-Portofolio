@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="../../index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <a><img src="../../assets/headerfix-logo.png" /></a>
+        </div>
+        <div class="header-navigation">
+            <div class="fontPop header-page-btn" id="header-page-btn">
+                <a href="./../home/home.html">Home</a>
+                <a href="./../rooms/rooms.html">Rooms</a>
+                <a href="./../facilities/facilities.html">Facilities</a>
+                <a href="./../about/about.html">About us</a>
+            </div>
+            <div class="header-reserve-btn">
+                <button>
+                    <a href="../reservation/reservation.html">RESERVE</a>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="home-container">
+        <div class="home--carousel--text">
+            <span>Welcome to Vhotel</span>
+            <span>A Warm and Cozy Place to Stay</span>
+            <span class="home--carousel--text--3">Enjoy a 30% off for all membership for FREE</span>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="home-carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../../assets/home_slide_1.jpg">
+                </div>
+
+                <div class=" item">
+                    <img src="../../assets/Home_slide_2.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="../../assets/home_slide_3.jpg">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-bar">
+            <p class="cpr fontPop">Copyright © 2023 VhoTel</p>
+
+            <div class="footer-icon">
+                <img src="../../assets/FacebooVector.png" class="img1" />
+                <img src="../../assets/mdi_instagram.png" class="img2" />
+            </div>
+            <img src="../../assets/headerfix-logo.png" class="img3" />
+            <div class="quote">
+                <p class="fontPop">Legendary Hotel in Jakarta<br> Established Since <span class="redHL">1999</span> </p>
+            </div>
+
+            <div class="fontTNR footer-txt">
+                <a>hello@vhotel.com</a>
+                <a>+62-8371-9583-9283</a>
+                <a>Jl. X No. 123, Jakarta, Indonesia</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

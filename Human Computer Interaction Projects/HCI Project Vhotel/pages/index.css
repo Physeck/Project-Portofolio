@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    /* overflow: hidden; */
+    background-color: #CFC2B6;
+}
+
+.fontPop {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fontHind {
+    font-family: 'Hind', sans-serif;
+}
+
+.fontTNR {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        resize: none;
+    }
+}

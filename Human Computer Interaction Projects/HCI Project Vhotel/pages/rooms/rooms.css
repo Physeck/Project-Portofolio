@@ -1,0 +1,348 @@
+.rooms-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms-content-container {
+    width: 60%;
+}
+
+.rooms-content-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+}
+
+.rooms-content-card-image {
+    height: 14vw;
+    width: 25%;
+    border-radius: 4vw 0 0 0;
+}
+
+.rooms-content-card-image img {
+    border-radius: 4vw 0 0 0;
+    width: 140%;
+    height: 100%;
+}
+
+.rooms-content-card-text {
+    height: 14vw;
+    background-color: white;
+    width: 50%;
+}
+
+.rooms-content-card-btn {
+    height: 14vw;
+    background-color: white;
+    width: 25%;
+    border-radius: 0 0 4vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms-content-card-btn button {
+    width: 7vw;
+    height: 2.5vw;
+    align-items: flex-end;
+    background-color: #F25C54;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.rooms-content-card-btn button:hover {
+    background-color: #99D98C;
+    transition: 0.5s;
+}
+
+.rooms-content-card-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.rooms-content-card-btn a:hover {
+    text-decoration: none;
+    color: #6B4A36;
+}
+
+.rooms-feature-text {
+    font-size: 1.2vw;
+    display: block;
+    font-weight: 500;
+    color: black;
+    margin-left: 3vw;
+}
+
+.rooms-content-card-room-name span {
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-left: 2.5vw;
+}
+
+.rooms-content-card-room-size span {
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-left: 2.5vw;
+    color: #6B4A36
+}
+
+.rooms-content-card-title span {
+    font-size: 2.1vw;
+    font-weight: 600;
+    margin-left: 2.5vw;
+    color: #6B4A36
+}
+
+.rooms-content-card-text-container {
+    margin-top: 0.5vw;
+}
+
+@media screen and (max-width: 740px) {
+    .rooms-content-card-room-name {
+            margin-top: -1vw;
+    }
+
+    .rooms-content-card-room-size {
+        margin-top: -1vw;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 5vw;
+    background-color: #FFF4E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+}
+
+.header-logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.header-logo img{
+    width : 50%;
+    height : auto;  
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-navigation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page-btn {
+    width: 80%;
+    height: 100%;
+    background-color: FFF4E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #6B4A36;
+    padding: 0 2vw;
+    text-decoration: none;
+}
+
+.header-reserve-btn {
+    width: 20%;
+    height: 100%;
+    background-color: #FFF4E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-reserve-btn button{
+    background-color: #99D98C;
+    outline: none;
+    border: none;
+    border-radius: 0.2vw;
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+}
+
+.header-reserve-btn button:hover{
+    background-color: #7F5539;
+    
+    transition: 0.5s;
+}
+
+.header-page-btn a:hover{
+    color: #F25C54;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+            height: 10vw;
+        }
+
+    .header-logo {
+        width: 15%;
+    }
+
+    .header-page-btn a {
+        font-size: 2vw;
+        padding: 0 1.2vw;
+            color:#6B4A36;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .header-reserve-btn {
+        width: 20%;
+        height: 100%;
+        background-color: FFF4E9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+    }
+
+}
+
+.header-reserve-btn a{
+    color:#6B4A36;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-reserve-btn a:hover{
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.footer {
+    width: 100%;
+    height: 5vw;
+    background-color: #FFF4E9;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 10; */
+    /* margin-top: -1vw; */
+}
+
+body{
+    margin: 0;
+}
+.footer-bar{
+    margin: 0 auto;
+    width: 100vw;
+    height: 4vw;
+    background-color: #FFF4E9;
+    /* position: relative; */
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+    
+}
+
+.footer-icon{
+    width: 170vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    left: 10%;
+}
+
+.img1 {
+    margin-top: 0;
+    width: 1.9vw;  
+    height: 1.9Svw;
+    margin-right: 1.5vw;
+    margin-left: 3vw;
+}
+
+.img2 {
+    /* margin-top:; */
+    width: 2vw;  
+    height: 2vw;
+}
+
+.img3{
+    width: 4.3%;
+    height: 90%;  
+    margin-right: 3vw;
+}
+
+
+.fontTNR a{
+    color: #6B4A36;
+    font-size: 1vw;
+    text-decoration: underline;
+    padding-right: 2.5vw;
+    white-space: nowrap;
+    float: left;
+}
+
+.footer-txt{
+    width: 50%;
+    height: 100%;
+    left: 9%;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.cpr{
+    font-size: 0.8vw;
+    color:#6B4A36;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote{
+    position: absolute;
+    /* top: 25%; */
+    right: 10%;
+    color:#6B4A36;
+    font-size: 1.03vw;
+    font-weight: 600; /*gak bisa semibold (?), sama weight 600 dgn 700+*/
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.15vw;
+}
+
+.redHL{
+    color:#F25C54;
+    letter-spacing: 0.15vw;
+}
