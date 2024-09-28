@@ -1,0 +1,77 @@
+﻿body {
+    font-size: 100%;
+}
+
+.loginPage-form{
+    top:15%;
+    left:25%;
+}
+
+.first-name-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.last-name-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.firstnameBox {
+    height: 3.75vw;
+    background-color: #FFFFFF;
+    border: solid #C8C8C8;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    font-size: 1.458vw;
+    padding-left: 0.625vw;
+}
+
+.firstnameBox:hover {
+    background-color: #D9D9D9;
+    border-color: #C8C8C8;
+}
+
+.firstnameBox::placeholder {
+    font-family: "Helvetica Regular", Helvetica, Arial, serif;
+    font-size: 1.458vw;
+    line-height: 1.14;
+    color: #767676;
+}
+
+.lastnameBox {
+    height: 3.75vw;
+    background-color: #FFFFFF;
+    border: solid #C8C8C8;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    font-size: 1.458vw;
+    padding-left: 0.625vw;
+}
+
+.lastnameBox:hover {
+    background-color: #D9D9D9;
+    border-color: #C8C8C8;
+}
+
+.lastnameBox::placeholder {
+    font-family: "Helvetica Regular", Helvetica, Arial, serif;
+    font-size: 1.458vw;
+    line-height: 1.14;
+    color: #767676;
+}
+
+.name-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 0.521vw;
+}
+
+.bottom-container {
+    bottom: 1.302vw;
+}

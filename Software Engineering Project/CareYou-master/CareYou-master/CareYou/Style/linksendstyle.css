@@ -1,0 +1,44 @@
+﻿body {
+    font-size: 100%;
+}
+
+.checkemail-flexrow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw 0px;
+    width: 100%;
+}
+
+.linksend-flex {
+    position: absolute;
+    top: 14.479vw;
+    left: 16.823vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.448vw 0px;
+    width: 39.375vw;
+    height: 10.521vw;
+}
+
+.link-bottom-container {
+    position: absolute;
+    bottom: 1.302vw;
+    right: 3.438vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.604vw;
+}
+
+.leftbtn-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 3.177vw;
+    width: 17.917vw;
+    bottom: 1.302vw;
+    right: 3.438vw;
+    justify-content: center;
+    gap: 2.604vw;
+}

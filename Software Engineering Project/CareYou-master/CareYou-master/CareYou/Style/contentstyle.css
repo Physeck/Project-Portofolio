@@ -1,0 +1,259 @@
+﻿body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*@font-face {
+    font-family: helvetica;
+    src: url("");
+}*/
+
+/*Donate Page*/
+
+.donatepage {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to bottom, #b3d9ff 50%, #ffffff 100%);
+}
+
+.searchbar {
+    padding: 5px 10px;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #B1CCE2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background: white;
+    width: 980px;
+    justify-content: space-between;
+}
+
+#searchprogram {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    background: transparent;
+}
+
+#searchI {
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
+
+#filter {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#magnifyingglass {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.programI {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.donateC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.donateprogramC {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 50px;
+    width: 1000px;
+}
+
+
+.programI {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.donatecontain1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donatecontain1, .progressbar, .donateN, #detailprogram {
+    flex: 1;
+    padding: 10px 20px;
+    align-items: baseline;
+}
+
+.donateT, .donateD, .donateN {
+    display: block;
+}
+
+.donateT {
+    font-size: 28px;
+    width: 480px;
+}
+
+
+.progressbar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    height: 10px;
+    width: 600px;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+    .progressbar div {
+        height: 100%;
+        background-color: #4CAF50;
+        width: 50%;
+    }
+
+.detailprogramP {
+    text-align-last: end;
+}
+
+.detailprogrambtn {
+    background-color: #b3d9ff00;
+    color: #4caf50;
+    border: 5px solid #4caf50;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+    .detailprogrambtn:hover {
+        background-color: #4caf50;
+        color: white;
+        border: 5px solid #4caf50;
+    }
+
+#viewmore {
+    align-self: flex-start;
+    margin: 10px 275px;
+}
+
+/*Fundraise Page*/
+
+.fundraisepage {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to bottom, #b3d9ff 50%, #ffffff 100%);
+}
+
+.createprogram {
+    margin-top: 80px;
+    background-color: #4caf50;
+    border-radius: 15px;
+    width: 700px;
+    height: 130px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+#createT {
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 160px;
+    padding: 20px 10px;
+}
+
+#startfundraisingbtn {
+    color: white;
+    background: transparent;
+    border-radius: 45px;
+    border: 5px solid white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 40px;
+}
+
+    #startfundraisingbtn:hover {
+        border: 5px solid white;
+        background-color: white;
+        color: #4caf50;
+    }
+
+.textTitle {
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: 780px;
+    font-size: 30px;
+}
+
+.pendingprgram {
+    width: 100%;
+}
+
+.pendingC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pendingprogramC {
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 50px;
+    width: 1000px;
+}
+
+#pendingT, #pendingN, #pendingD {
+    color: white;
+}
+
+#pendingdetailprogram {
+    color: white;
+    border: 5px solid white;
+}
+
+#pendingdetailprogram:hover {
+    color: white;
+    background-color: grey;
+    border: 5px solid grey;
+}
+
+#pendingprogramT {
+    margin-left: 120px;
+}
+

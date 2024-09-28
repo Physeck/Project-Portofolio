@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c32daf8a3dca4add9b7c03b046fa526f" Name="Diagram1" ZoomLevel="57">
+        <EntityTypeShape EntityType="CareYouDBModel.Admin" Width="1.5" PointX="13.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.Badge" Width="1.5" PointX="9.625" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.Donation" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.Program" Width="1.875" PointX="6.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.ProgramChanges" Width="1.5" PointX="11.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.ReportedProgram" Width="1.5" PointX="9.625" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.Transaction" Width="1.5" PointX="3.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.User" Width="1.5" PointX="6.875" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.UserBadge" Width="1.5" PointX="6.875" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CareYouDBModel.Withdrawal" Width="1.5" PointX="0.875" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="CareYouDBModel.FK_ProgramChanges_AdminID" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_ReportedProgram_ToAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_UserBadge_Badge" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Donation_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Program_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_ProgramChanges_ProgramID" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_ReportedProgram_ToProgram" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Transaction_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_ReportedProgram_ToUser" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Transaction_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Withdrawal_Transaction" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_UserBadge_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CareYouDBModel.FK_Program_Admin" />
+        <EntityTypeShape EntityType="CareYouDBModel.Organization" Width="1.5" PointX="11.5" PointY="3.625" />
+        <AssociationConnector Association="CareYouDBModel.FK_Organization_ToAdmin" />
+        <AssociationConnector Association="CareYouDBModel.FK_Organization_ToUser" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

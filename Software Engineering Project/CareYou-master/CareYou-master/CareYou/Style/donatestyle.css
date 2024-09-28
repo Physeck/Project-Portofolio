@@ -1,0 +1,387 @@
+﻿
+
+.donate-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundraise-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.donate-page-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.427vw 0px;
+    margin: 16.51vw auto 30.312vw;
+    width: 83.54%;
+}
+
+.fundraise-page-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 11.823vw auto 36.563vw;
+    width: 83.7%;
+}
+
+.create-program-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(1, 169, 93);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+}
+
+.create-program-flexbox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 0.521vw;
+    margin: 2.865vw auto;
+    width: 82.58%;
+}
+
+.create-program-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 22.969vw;
+    min-width: 0px;
+    font: 700 3.333vw/1.15 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.fundraise-button-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 28.906vw;
+    min-width: 0px;
+}
+
+.fundraise-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700 2.5vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 2.604vw 2.604vw 2.604vw 2.604vw;
+    padding: 1.458vw 0.417vw 1.458vw 0.417vw;
+    outline: 0.417vw solid rgb(255, 255, 255);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+    
+        .fundraise-btn:hover {
+            background-color: white;
+            color: rgb(1, 169, 93);
+        }
+
+.fundraise-img-flexbox {
+    position: absolute;
+    top: -2.24vw;
+    left: -4.635vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.365vw 0px;
+    width: 6.198vw;
+    height: 7.24vw;
+}
+
+.fundraise-img {
+    position: relative;
+    margin: 0px 0px 0px 1.979vw;
+    width: 4.219vw;
+    height: 4.219vw;
+}
+
+    .fundraise-img.small {
+        width: 2.656vw;
+        height: 2.656vw;
+        margin: 0;
+    }
+
+.your-program-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 4.74vw 0 3.229vw;
+    font: 700 4.167vw/0.98 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6.406vw;
+}
+.search-bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 3.269vw - 7.604vw);
+    height: 100%;
+    padding-left: 3.269vw;
+    padding-right: 7.604vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    font: 500 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.search-bar::placeholder {
+    color: rgb(118, 118, 118);
+}
+
+.search-flexrow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 1.563vw;
+    gap: 0 2.083vw;
+    right: 3.958vw;
+    width: fit-content;
+}
+
+.search-btn {
+    position: relative;
+    width: 3.269vw;
+    height: 3.125vw;
+}
+.hidden-dropdown {
+    display: none;
+}
+.ddl {
+    position: relative;
+    display: inline-block;
+    width: 3.125vw;
+    height: 3.125vw;
+    background: url(../Assets/Search/filter.png) center center / 100% 100% no-repeat;
+    cursor: pointer;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #01A95D;
+    top: 3.125vw;
+    min-width: 8.333vw;
+    border-radius: 1.667vw 1.667vw 1.667vw 1.667vw;
+    overflow: hidden;
+    box-shadow: 0px 0.417vw 0.833vw 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .custom-dropdown-content a {
+        color: white;
+        padding: 1.042vw 1.25vw;
+        text-decoration: none;
+        display: block;
+        border: none;
+        outline: none;
+    }
+
+        .custom-dropdown-content a:hover {
+            background-color: rgb(1, 45, 25);
+        }
+
+.show {
+    display: block;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+}
+.program-list-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 8.854vw;
+    width: 100%;
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.521vw;
+}
+
+.program-card-container {
+    position: relative;
+    width: 100%;
+    height: 16.458vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    overflow: hidden;
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+.program-card-container:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.pending-card-container {
+    position: relative;
+    width: 100%;
+    height: 16.458vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #A1A1A1;
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    overflow: hidden;
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 3.021vw;
+    right: 3.125vw;
+    display: flex;
+    justify-content: flex-end;
+    font: 400 1.25vw/1.16 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    text-align: right;
+    letter-spacing: 0.057vw;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--src) top center no-repeat;
+    background-size: cover;
+    width: 27.083vw;
+    height: 100%;
+}
+
+.program-container {
+    position: relative;
+    display: flex;
+    margin-left: 0;
+    width: 51.302vw;
+    min-height: 11.51vw;
+    margin: 3.021vw 2.448vw 1.927vw;
+}
+
+.program-container-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.program-title {
+    position: relative;
+    display: flex;
+    font: 700 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    margin: 0;
+    width: 39.323vw;
+}
+
+.fundraiser {
+    position: relative;
+    display: flex;
+    margin: 1.042vw 0px 0px;
+    font: 700 1.25vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+
+.raised-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.raised {
+    position: relative;
+    display: flex;
+    margin: 0px;
+    font: 700 1.25vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+.progress-bar {
+    position: relative;
+    margin: 0.625vw 0px 0px;
+    width: 100%;
+    height: 1.563vw;
+    background-color: #E6F5EF;
+    border-radius: 5.208vw;
+    overflow: hidden;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #01A95D;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    border-radius: 5.208vw;
+    
+}
+
+.progress-text {
+    font: 500 1.042vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: white;
+    margin: auto 0.521vw auto 0;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.646vw 0px 0px;
+    width: 11.979vw;
+    max-width: 100%;
+    font: 700 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.38vw 1.38vw 1.38vw 1.38vw;
+    padding: 0.339vw 0.417vw 0.339vw 0.417vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    border-width: 0px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+    .btn:hover {
+        background-color: #01a95dff;
+        color: white;
+    }

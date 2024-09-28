@@ -1,0 +1,702 @@
+﻿.program-detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #F6F8FA;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.program-detail-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.49vw 0px;
+    margin: 0px 7.292vw 12.409vw 7.292vw;
+}
+
+.program-detail-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 51.302vw;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 13.438vw 0px 2.083vw 7.292vw;
+    font: 700 2.604vw/1.13 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    width: 85.417vw;
+}
+
+.program-image {
+    position: relative;
+    width: 100%;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    box-shadow: 0px 0.521vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+}
+
+.fundraiser-flexbox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.042vw 11.094vw 0px 1.875vw;
+}
+
+.fundraiser {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 0.625vw;
+    width: fit-content;
+    min-width: 0px;
+}
+
+.profile-image {
+    position: relative;
+    width: 5vw;
+    min-width: 0px;
+    height: 5vw;
+    box-shadow: 0px 0.521vw 1.042vw 0px rgba(0, 0, 0, 0.149);
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: #01A95D;
+    outline-width: 0.26vw;
+    outline-offset: 0.26vw;
+}
+
+.profile-image1 {
+    position: relative;
+    margin: 0px 1.042vw 0px 0.521vw;
+    width: 5vw;
+    height: 5vw;
+    outline-style: solid;
+    outline-color: #01A95D;
+    outline-width: 0.26vw;
+    outline-offset: 0.26vw;
+    border-radius: 50%;
+}
+
+.fundraiser-detail-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.313vw 0px;
+    width: fit-content;
+    min-width: 0px;
+    max-height: 4.167vw;
+}
+
+.profile-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 0.104vw 0px 0px;
+    font: 400 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.profile-text.bold {
+    font: 700 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    margin: 0.625vw 0 0.573vw 0;
+}
+
+.profile-text2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 21px 0px 0px;
+    font: 400 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.profile-text3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.443vw 0px 0px;
+    font: 400 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.desc-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.563vw 0px 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    box-shadow: 0px 0.521vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+}
+
+.desc-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.042vw 1.979vw 1.979vw;
+}
+
+.verified-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.521vw 0px 0px 0.521vw;
+    max-width: 13.698vw;
+    height: 2.255vw;
+    background-color: rgb(189, 255, 225);
+    border-radius: 0.833vw 0.833vw 0.833vw 0.833vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+}
+
+.verified-image-flexbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 0.052vw;
+    margin: 0.26vw 0.26vw 0.208vw 0.573vw;
+}
+
+.verified-image-png {
+    position: relative;
+    width: 1.786vw;
+    height: 1.786vw;
+}
+
+.verified-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0px;
+    font: 700 1.302vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+}
+
+.line {
+    position: relative;
+    margin: 1.458vw auto 0 auto ;
+    width: 100%;
+    height: 0.052vw;
+    min-height: 0.052vw;
+    background-color: rgb(118, 118, 118);
+    
+}
+
+.desc {
+    position: relative;
+    margin: 1.563vw 0.521vw 0px 0.521vw;
+    font: 400 1.302vw/1.15 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+}
+
+.comment-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.302vw 0px 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    box-shadow: 0px 0.521vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+}
+
+.comment-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.51vw 1.615vw 1.563vw;
+}
+
+.comment-title {
+    position: relative;
+    margin: 0px 0.26vw;
+    font: 700 2.604vw/1.13 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.comment-content-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.969vw 0px;
+    margin: 1.615vw 0.365vw 1.25vw 0.365vw;
+}
+
+.comment-content-container {
+    position: relative;
+    display: flex;
+    gap: 0px 0.625vw;
+}
+
+.comment-text-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0.313vw 0px 0px;
+    min-width: 0px;
+}
+
+.donated-flexbox {
+    position: relative;
+    display: flex;
+    gap: 0px 0.573vw;
+    margin: 0.391vw 0px 0px;
+}
+
+.donation-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.052vw 0px 0px;
+    min-width: 0px;
+    font: 500 1.302vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.donation-time {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0.156vw;
+    min-width: 0px;
+    font: 400 1.042vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 4.271vw 0px 0px 0.365vw;
+    width: 9.479vw;
+    max-width: 100%;
+    font: 700 1.458vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    padding: 0.521vw 0.729vw 0.521vw 0.729vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+}
+
+.profile-text4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1.406vw auto 0px;
+    width: 93.34%;
+    font: 400 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+}
+
+.report-btn {
+    position: relative;
+    display: flex;
+    gap: 0px 0.781vw;
+    margin: 1.563vw auto 0px;
+    width: 93.34%;
+}
+
+.report-img {
+    position: relative;
+    width: 0.938vw;
+    min-width: 0px;
+    height: 1.719vw;
+}
+
+.profile-text5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.052vw 0px 0.104vw;
+    min-width: 0px;
+    font: 400 1.302vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(110, 117, 114);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.donate-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30.625vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    box-shadow: 0px 0.781vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+    height: fit-content;
+}
+
+.donate-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2.396vw 8% 1.458vw 8%;
+    height: 100%;
+}
+
+.raised-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.raised-text-flexbox {
+    position: relative;
+    display: flex;
+    gap: 0px 0.208vw;
+    width: 100%;
+}
+
+.raised-text {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    min-width: 0px;
+    font: 600 1.979vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.desc1 {
+    position: relative;
+    margin: auto 0px 0.208vw 0.208vw;
+    width: fit-content;
+    min-width: 0px;
+    font: 400 1.042vw/1.1 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+}
+
+.progress-bar {
+    position: relative;
+    margin: 0.833vw 0px 0px;
+    width: 91.67%;
+    height: 0.781vw;
+    background-color: #E6F5EF;
+    border-radius: 3.125vw;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #01A95D;
+    text-align: center;
+    color: white;
+    border-radius: 3.125vw;
+}
+
+.donation-count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.417vw 0px 0px;
+    width: 100%;
+    font: 400 1.198vw/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+}
+
+.donate-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.146vw 16% 0px 16%;
+    font: 700 1.302vw/1.15 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(254, 220, 151);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    border: none;
+    padding: 1.667vw 0.417vw 1.667vw 0.417vw;
+    height: 4.844vw;
+    width: 17.448vw;
+}
+
+    .donate-btn:hover {
+        background-color: #FEB625;
+        cursor: pointer;
+    }
+
+.top-donation-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.781vw 0px 0px 0.104vw;
+    width: 72.1%;
+}
+
+.top-donation-title-container {
+    position: relative;
+    display: flex;
+    gap: 0px 0.573vw;
+    width: 92.71%;
+}
+
+.top-donation-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1.589vw 0px 1.276vw;
+    min-width: 0px;
+    font: 700 1.563vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+}
+
+.top-donation-content-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25vw 0px;
+    width: 92.71%;
+}
+
+.top-donater-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 0.625vw;
+}
+
+.top-donater-content-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.365vw 0px;
+    width: fit-content;
+    min-width: 0px;
+}
+
+.donated-flexbox1 {
+    position: relative;
+    display: flex;
+    gap: 0px 0.573vw;
+}
+
+.btn1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0px 0.417vw 0.208vw;
+    width: 6.146vw;
+    font: 700 1.458vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    padding: 0.521vw 1.042vw 0.521vw 1.042vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: solid #C8C8C8;
+    border-width: 0.052vw;
+}
+
+
+.modal {
+    position: fixed; 
+    z-index: 1010  ; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    align-items: center;
+    display: flex;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    width: 47.708vw;
+    height: 45.365vw;
+    margin: auto auto;
+}
+
+.modal-content1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    width: 47.708vw;
+    height: 25.885vw;
+    margin: auto auto;
+}
+
+.report-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.031vw 1.719vw 6.354vw;
+}
+
+.report-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700 2.5vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;     
+    margin: 0;
+}
+
+.report-desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.302vw 0px 0px;
+    font: 700 1.875vw/1.16 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.report-submitted-desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5.521vw 0px 0px;
+    font: 700 1.875vw/1.16 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.report-checkbox-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw 0px;
+    margin: 1.094vw 0px 0px;
+    width: 93.06%;
+}
+
+.checkbox-button-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 1.198vw;
+}
+
+input[type="checkbox" i] {
+    position: relative;
+    min-width: 3.75vw;
+    min-height: 3.75vw;
+    background-color: rgb(246, 248, 250);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid rgba(0, 0, 0, 0.498);
+    outline-offset: -0.052vw;
+    cursor: pointer;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    visibility: visible;
+    appearance: none;
+}
+
+    input[type='checkbox' i]:after {
+        visibility: hidden;
+    }
+
+input[type='checkbox']:checked:after {
+    background: url('../Assets/Validations/checkmark.png') center center / 100% 100% no-repeat;
+    width: 3.385vw;
+    height: 2.604vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    content: '';
+    visibility: visible;
+    cursor: pointer;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+    .hidden-checkbox:checked + .checkbox-button:after {
+        opacity: 1;
+    }
+
+.checkbox-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 0px;
+    font: 700 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(1, 45, 25, 0.749);
+    text-align: justify;
+    margin: 0;
+}
+
+.others-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.reason-textbox {
+    position: absolute;
+    left: 4.948vw;
+    top: 3.75vw;
+    flex-direction: row;
+    width: calc(36.25vw - 0.521vw - 0.521vw);
+    display: flex;
+    padding: 0.521vw 0.521vw 0.521vw 0.521vw;
+    align-items: center;
+    font: 500 1.458vw/0.99 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #545454;
+    text-align: left;
+    background-color: #F6F8FA;
+    height: calc(8.854vw - 0.521vw - 0.521vw);
+    border: none;
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid #7B7C7D;
+    outline-offset: -0.052vw;
+    transition-duration: 0.1s;
+    transition-property: background-color;
+}
+
+.report-submit-btn {
+    position: absolute;
+    right: 3.385vw;
+    bottom: 1.354vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.115vw;
+    height: 2.604vw;
+    font: 700 1.719vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.302vw 1.302vw 1.302vw 1.302vw;
+    padding: 0.443vw 1.563vw 0.443vw 1.563vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    border: none;
+}
+    
+        .report-submit-btn:hover {
+            background-color: rgb(1, 169, 93);
+            color: white;
+        }
+
+.error-text {
+    color: red;
+    font: 400 1.354vw/1.13 "Helvetica Regular", Helvetica, Arial, serif;
+    margin: 9vw 0;
+}

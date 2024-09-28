@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminNavbar.master.cs" Inherits="CareYou.Layouts.AdminNavbar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Style/navbarstyle.css" rel="stylesheet" />
+    <link href="../Style/footerstyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="navbar-container">
+                <div class="navbar_shape">
+                    <div class="navbar">
+                        <div class="navbarBtn_wrapper">
+                            <asp:Button CssClass="navbar_btn" Style="font-size: 2.083vw" ID="DashboardBtn" runat="server" Text="Dashboard" OnClick="DashboardBtn_Click" />
+                            <asp:Button CssClass="navbar_btn" Style="font-size: 2.083vw" ID="PendingBtn" runat="server" Text="Pending Verification" OnClick="PendingBtn_Click" />
+                            <asp:Button CssClass="navbar_btn" Style="font-size: 2.083vw" ID="ReportsBtn" runat="server" Text="User Reports" OnClick="ReportsBtn_Click" />
+                        </div>
+                        <asp:Button CssClass="logout-btn" ID="LogOutBtn" runat="server" Text="Log Out" OnClick="LogOutBtn_Click" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <div class="root">
+                <div class="footer-container">
+                    <div class="footer-top">
+                        <h1 class="title1_box">
+                            <span class="title1"><span class="title1_span0">Care</span><span class="title1_span1">You</span></span>
+                        </h1>
+                        <div class="flex_col">
+                            <h1 class="title2">Fundraise for</h1>
+                            <h1 class="title3">Social Activities</h1>
+                            <h1 class="title31">Projects</h1>
+                        </div>
+                        <div class="flex_col1">
+                            <h1 class="title21">Learn more</h1>
+                            <h1 class="title32">About Us</h1>
+                            <h1 class="title33">Terms and Conditions</h1>
+                            <h1 class="title34">Help Centre</h1>
+                        </div>
+                    </div>
+                    <h1 class="footer-bottom">© 2024 CareYou. All Rights Reserved</h1>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

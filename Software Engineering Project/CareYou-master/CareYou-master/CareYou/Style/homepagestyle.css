@@ -1,0 +1,318 @@
+﻿
+
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 248, 250);
+}
+
+.top {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: var(--src) center center / 110% 110% no-repeat;
+}
+
+.title_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 11.146vw 0px 11.406vw 11.98%;
+    width: 65.573vw;
+}
+
+.title_flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-title_box {
+    position: relative;
+    margin: 0px 0.469vw;
+}
+
+.app-title {
+    font: 500 3.333vw/1.23 "HelveticaCompressed" , Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.667vw;
+}
+
+.app-title_span0 {
+    color: rgb(1, 169, 93);
+}
+
+.app-title_span1 {
+}
+
+.tagline_box {
+    position: relative;
+    margin: 1.406vw 0px 0px 0.469vw;
+}
+
+.tagline {
+    font: 700 5vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+.tagline_span0 {
+    color: rgb(1, 45, 25);
+}
+
+.tagline_span1 {
+    color: rgb(255, 255, 255);
+}
+
+.fundraise-btn {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin: 37.917vw 0px 0px;
+    width: 20.833vw;
+    height: 3.906vw;
+    max-width: 100%;
+    font: 700 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border: none;
+    border-radius: 1.953vw 1.953vw 1.953vw 1.953vw;
+    padding: 0.911vw 1.771vw 0.911vw 1.771vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    cursor: pointer;
+}
+
+    .fundraise-btn:hover {
+        background-color: #01a95dff;
+        color: white;
+    }
+
+.bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 72.5vw 0px 0px 0px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 5.208vw 5.208vw 0px 0px;
+    box-shadow: 0px 0.781vw 2.083vw 0px rgba(0, 0, 0, 0.498);
+}
+
+.discover-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 4.323vw auto 12.031vw;
+    max-width: 86.667vw;
+}
+
+.discover-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0.365vw;
+    width: 21.927vw;
+    font: 700 5.208vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    text-align: center;
+}
+
+.programs-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4.896vw 0px;
+    margin: 8.177vw 0px 0px;
+}
+
+.section-title {
+    position: relative;
+    width: 51.146vw;
+    font: 700 3.385vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3.333vw;
+}
+
+.program-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 26.667vw;
+    min-width: 0px;
+    height: 26.667vw;
+    background: var(--src) top center no-repeat;
+    background-size: 120%;
+    border-radius: 1.042vw;
+    box-shadow: 0px 0.781vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+    transition-duration: 0.15s;
+    z-index: 1;
+    cursor: pointer;
+}
+
+    .program-container:hover {
+        background-size: 110%;
+        transform: scale(1.05);
+        z-index: 10;
+        height: 44.479vw;
+    }
+
+    .program-container.wide {
+        width: 56.667vw;
+    }
+
+
+
+.program-container-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 1.042vw 1.042vw;
+    transition: height 0.15s;
+    height: 10.417vw;
+}
+
+.program-container:hover .program-container-content {
+    height: 25.417vw;
+}
+
+.program-container-content-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0.781vw auto 1.875vw;
+    width: 80.27%;
+    height: 100%;
+}
+
+.program-title {
+    position: relative;
+    font: 700 1.458vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    max-height: 3.958vw;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+    .program-title.wide {
+        font: 700 1.563vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    }
+
+.fundraiser {
+    position: relative;
+    margin: 0.625vw 0px 0px;
+    width: 100%;
+    font: 500 1.042vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+    .fundraiser.wide {
+        margin: 0.365vw 0px 0px;
+        font: 500 1.146vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    }
+
+.raised {
+    position: relative;
+    margin: 0.469vw 0px 0px;
+    width: 100%;
+    font: 700 1.302vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+}
+
+    .raised.wide {
+        font: 700 1.406vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    }
+
+.progress-bar {
+    position: relative;
+    margin: 0.625vw 0px 0px;
+    width: 97.32%;
+    height: 0.781vw;
+    background-color: #E6F5EF;
+    border-radius: 5.208vw;
+    overflow: hidden;
+}
+
+    .progress-bar.wide {
+        width: 100%;
+    }
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #01A95D;
+    text-align: center;
+    color: white;
+    border-radius: 5.208vw;
+}
+
+.brief-description {
+    display: none;
+    position: relative;
+    margin: 0.625vw 0px 0px;
+    font: 500 1.354vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    white-space: normal;
+    overflow: hidden;
+}
+
+.program-container:hover .brief-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+.program-card-container {
+    position: relative;
+    height: 26.667vw;
+    width: 26.667vw;
+}
+
+    .program-card-container.wide {
+        width: 56.667vw;
+    }
+
+.viewmore-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.646vw 0px 0px;
+    width: 11.979vw;
+    max-width: 100%;
+    font: 700 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.38vw 1.38vw 1.38vw 1.38vw;
+    padding: 0.339vw 0.417vw 0.339vw 0.417vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    border-width: 0px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+}
+
+    .viewmore-btn:hover {
+        background-color: #01a95dff;
+        color: white;
+    }

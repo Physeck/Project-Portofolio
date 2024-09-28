@@ -1,0 +1,191 @@
+﻿@font-face {
+    font-family: 'HelveticaCompressed';
+    src: url('../Assets/fonts/helvetica-compressed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, serif;
+    background-color: #F6F8FA;
+    margin: 0 0 19.531vw 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+.navbar_shape {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2.604vw 2.604vw 2.604vw 2.604vw;
+    filter: drop-shadow(0px 0px 2.083vw rgba(0, 0, 0, 0.298));
+    width: 100%;
+    min-height: 5.625vw;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 0.521vw;
+    margin: 0 auto 0 auto;
+    width: 90.35%;
+    height: 100%;
+}
+
+.navbarBtn_wrapper {
+    position: relative;
+    display: flex;
+    gap: 0px 1.563vw;
+    width: 51.25vw;
+    min-width: 0px;
+    height: 100%;
+}
+
+.navbar_btn {
+    position: relative;
+    display: flex;
+    min-width: 0px;
+    justify-content: center;
+    align-items: center;
+    font: 700 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition-duration: 0.1s;
+    transition-property: color;
+    border: none;
+    background: none;
+    padding: 0;
+    white-space: nowrap;
+    overflow: visible;
+    cursor: pointer;
+    height: 100%;
+}
+
+    .navbar_btn:hover {
+        color: #01a95d;
+    }
+
+.navbar_btn_selected {
+    position: relative;
+    display: flex;
+    min-width: 0px;
+    justify-content: center;
+    align-items: center;
+    font: 700 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #01a95d;
+    text-align: center;
+    transition-duration: 0.1s;
+    transition-property: color;
+    border: none;
+    background: none;
+    padding: 0;
+    white-space: nowrap;
+    overflow: visible;
+    cursor: pointer;
+    height: 100%;
+}
+
+.logout-btn {
+    position: relative;
+    display: flex;
+    min-width: 0px;
+    justify-content: center;
+    align-items: center;
+    font: 700 2.344vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #FF5B5B;
+    text-align: center;
+    transition-duration: 0.1s;
+    transition-property: color;
+    border: none;
+    background: none;
+    padding: 0;
+    white-space: nowrap;
+    overflow: visible;
+    cursor: pointer;
+    height: 100%;
+}
+
+    .logout-btn:hover {
+        color: #FE4040;
+    }
+
+.signInbtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 9.115vw;
+    background-color: transparent;
+    font: 700 1.719vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 1.302vw 1.302vw 1.302vw 1.302vw;
+    padding: 0.443vw 1.667vw 0.443vw 1.667vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    transition-duration: 0.1s;
+    transition-property: background-color;
+    min-height: 2.604vw;
+}
+
+    .signInbtn:hover {
+        background-color: #01a95d;
+        color: rgb(255, 255, 255);
+    }
+
+.profileBtn {
+    position: relative;
+    width: 4.167vw;
+    height: 4.167vw;
+}
+
+.notif-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 3.073vw;
+    width: fit-content;
+    padding-left: 1.094vw;
+    padding-right: 1.094vw;
+    background-color: #ffffff;
+    margin-top: 0.417vw;
+    border-radius: 0.781vw 0.781vw 0.781vw 0.781vw;
+    filter: drop-shadow(0px 0.781vw 2.083vw rgba(0, 0, 0, 0.15));
+    font: 500 1.563vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 3s ease, visibility 3s ease;
+}
+    .notif-container.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.navbar-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 1.563vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 84.16%;
+    align-items: center;
+}
+
+#orgForm{
+    text-decoration:none;
+}
+
+#orgForm:hover{
+    text-decoration: underline
+}

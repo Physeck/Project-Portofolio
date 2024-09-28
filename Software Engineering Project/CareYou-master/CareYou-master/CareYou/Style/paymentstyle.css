@@ -1,0 +1,506 @@
+﻿
+.paymentPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(246, 248, 250);
+
+}
+
+.payment-page-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10.885vw auto 20%;
+    width: 84%;
+}
+
+.payment-title {
+    position: relative;
+    margin: 0px 0px 0px 2.656vw;
+    font: 700 5.208vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+
+.payment-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 4.896vw 0px 0px;
+    width: 89.583vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5.208vw 5.208vw 5.208vw 5.208vw;
+    box-shadow: 0px 0.781vw 2.083vw 0px rgba(0, 0, 0, 0.498);
+}
+
+.payment-container-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 2.135vw auto 2.656vw;
+    width: 87.85%;
+}
+
+.container-title {
+    position: relative;
+    display: flex;
+    margin: 0px 0px 0px 0.26vw;
+    font: 700 4.167vw/0.98 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    text-align: center;
+}
+
+.amount_box {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 11.25vw;
+    margin: 2.5vw 0.26vw 0px 0.26vw;
+}
+
+input[type="text" i].currency-amount:focus-visible {
+    border: none;
+}
+
+.currency {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    min-width: 0px;
+    font: 500 4.167vw/0.98 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(0, 0, 0, 0.498);
+    z-index: 10;
+    left: 2.865vw;
+}
+
+.currency-amount {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 9.375vw;
+    padding-right: 2.813vw;
+    align-items: center;
+    font: 500 5.729vw/0.99 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    background-color: rgb(246, 248, 250);
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid #7B7C7D;
+    outline-offset: -0.052vw;
+    max-height: 11.25vw;
+    transition-duration: 0.1s;
+    transition-property: background-color;
+}
+.currency-amount:hover {
+    background-color: #F0F0F0;
+}
+
+.container-desc {
+    position: relative;
+    margin: 4.635vw 0px 0px 0.26vw;
+    font: 500 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(1, 45, 25, 0.749);
+    text-align: justify;
+}
+
+.checkbox-button-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.99vw 0px;
+    margin: 3.021vw 0px 0px 0.26vw;
+    width: 86.3%;
+}
+
+.checkbox-button-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 1.198vw;
+}
+
+.checkbox-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 3.75vw;
+    min-height: 3.75vw;
+    background-color: rgb(246, 248, 250);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid rgba(0, 0, 0, 0.498);
+    outline-offset: -0.052vw;
+    cursor: pointer;
+    color: #01A95D
+}
+
+input[type="checkbox" i] {
+    position: relative;
+    min-width: 3.75vw;
+    min-height: 3.75vw;
+    background-color: rgb(246, 248, 250);
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid rgba(0, 0, 0, 0.498);
+    outline-offset: -0.052vw;
+    cursor: pointer;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    visibility: visible;
+    appearance: none;
+}
+
+    input[type='checkbox' i]:after {
+        visibility: hidden;
+    }
+input[type='checkbox']:checked:after {
+    background: url('../Assets/Validations/checkmark.png') center center / 100% 100% no-repeat;
+    width: 3.385vw;
+    height: 2.604vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    content: '';
+    visibility: visible;
+    cursor: pointer;
+}
+
+.hidden-checkbox{
+    display: none;
+}
+
+.hidden-checkbox:checked + .checkbox-button:after {
+    opacity: 1;
+}
+
+.checkbox-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 0px;
+    font: 700 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(1, 45, 25, 0.749);
+    text-align: justify;
+}
+
+.radio-button {
+    position: relative;
+    display: flex;
+    min-width: 3.75vw;
+    min-height: 3.75vw;
+    background-color: rgb(246, 248, 250);
+    border-radius: 50%;
+    outline: 0.052vw solid rgba(0, 0, 0, 0.498);
+    outline-offset: -0.052vw;
+    cursor: pointer;
+    color: #01A95D;
+    margin: 0;
+    appearance: none;
+}
+
+input[type="radio" i] {
+    position: relative;
+    display: flex;
+    min-width: 3.75vw;
+    min-height: 3.75vw;
+    background-color: rgb(246, 248, 250);
+    border-radius: 50%;
+    outline: 0.052vw solid rgba(0, 0, 0, 0.498);
+    outline-offset: -0.052vw;
+    cursor: pointer;
+    color: #01A95D;
+    margin: 0;
+    appearance: none;
+}
+
+input[type="radio" i]:after {
+    visibility: hidden;
+}
+
+    input[type="radio" i]:checked:after {
+        content: '';
+        width: 2.188vw;
+        height: 2.188vw;
+        background-color: #01A95D;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: visible;
+    }
+
+.method-list-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.052vw 0px;
+    margin: 2.5vw 0.26vw 0px 0.26vw;
+    border: 0.052vw solid rgba(0, 0, 0, 0.501);
+    border-radius: 2.604vw;
+}
+
+.gopay-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -ms-align-content: inherit;
+    -webkit-align-content: inherit;
+    align-content: inherit;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2.604vw 2.604vw 0px 0px;
+    border-color: rgba(0, 0, 0, 0.498);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    max-height: 7.292vw;
+}
+
+.method-content-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 0.521vw;
+    margin: 1.667vw 3.906vw;
+    width: 100%;
+    align-items: center;
+}
+
+.button-text-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 3.125vw;
+    margin: 0.208vw 0px;
+    width: fit-content;
+    min-width: 0px;
+}
+
+.method-text {
+    position: relative;
+    min-width: 0px;
+    font: 500 2.708vw/0.98 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    margin: auto 0 auto 0;
+}
+
+.method-img {
+    position: relative;
+    width: 4.167vw;
+    min-width: 0px;
+    height: 4.167vw;
+}
+
+.ovo-dana-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0.498);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    max-height: 7.292vw;
+}
+
+.cc-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 2.604vw 2.604vw;
+    border-color: rgba(0, 0, 0, 0.498);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    max-height: 7.292vw;
+}
+
+.cc-img {
+    position: relative;
+    width: 4.688vw;
+    min-width: 0px;
+    height: 2.604vw;
+}
+
+.donate-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 5.208vw auto 0px;
+    width: 93.33%;
+    font: 700 3.333vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.823vw 1.823vw 1.823vw 1.823vw;
+    padding: 1.667vw 0.417vw 1.667vw 0.417vw;
+    outline: 0.417vw solid rgb(1, 169, 93);
+    outline-offset: -0.417vw;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+}
+
+.donate-btn:hover {
+    background-color: rgb(1, 169, 93);
+    color: white;
+}
+
+.container-desc1 {
+    position: relative;
+    margin: 1.823vw auto 0px ;
+    width: 91.2%;
+    font: 500 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(1, 45, 25, 0.749);
+}
+
+.error-label {
+    position: relative;
+    display: flex;
+    font: 500 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: red;
+    margin: 1.302vw auto 0px 2.76vw;
+    align-self: flex-start
+}
+
+.cc-form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.656vw 0px;
+    margin: 5.208vw auto 0px;
+    width: 94.2%;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+    .cc-form-container.hidden {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+
+
+.cc-name {
+    position: relative;
+    display: flex;
+    height: 5.208vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: none;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(54, 54, 54);
+    padding: 0 1.042vw 0 1.042vw;
+    transition-duration: 0.15s;
+}
+    .cc-name:hover, .card-number-container:hover, .cc-expire:hover, .cc-cvv:hover, .cc-postcode:hover{
+        background-color: #D9D9D9;
+    }
+input[type="text" i] {
+    color: #545454;
+
+}
+.cc-name::placeholder, .card-number-container::placeholder, .cc-expire::placeholder, .cc-cvv::placeholder, .cc-postcode::placeholder{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(118, 118, 118);
+}
+
+.cc-name:focus {
+    outline: 0.052vw solid rgb(200, 200, 200);
+}
+
+.form-flexbox-line {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 0.156vw 0px 0.104vw;
+    height: 5.208vw;
+}
+
+.card-number-container {
+    position: relative;
+    display: flex;
+    height: 5.208vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: none;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(54, 54, 54);
+    padding: 0 1.042vw 0 1.042vw;
+    width: 70%;
+    transition-duration: 0.15s;
+}
+
+.cc-expire {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 5.208vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: none;
+    padding: 0 1.042vw 0 1.042vw;
+    width: 30%;
+    transition-duration: 0.15s;
+    align-items: center;
+}
+
+.cc-expire-text {
+    position: relative;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(54, 54, 54);
+    outline: none;
+    border: none;
+    width: 3.646vw;
+    background-color: transparent;
+}
+
+.date-separator {
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    position: relative;
+    width: fit-content;
+}
+
+.cc-cvv {
+    position: relative;
+    display: flex;
+    height: 5.208vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: none;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(54, 54, 54);
+    padding: 0 1.042vw 0 1.042vw;
+    width: 20%;
+    transition-duration: 0.15s;
+}
+
+.cc-postcode {
+    position: relative;
+    display: flex;
+    height: 5.208vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    border: none;
+    font: 400 2.083vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(54, 54, 54);
+    padding: 0 1.042vw 0 1.042vw;
+    transition-duration: 0.15s;
+    width: 60%;
+}

@@ -1,0 +1,538 @@
+﻿body {
+    font-size: 100%;
+    background: #F6F8FA;
+}
+
+.edit-container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+    padding: 4.167vw 3.854vw 8.177vw 3.854vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.083vw;
+}
+
+.form-title {
+    font: 700 2.5vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: black;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.edit-flex_col {
+    margin: 0px 0px 3.854vw 0px;
+    position: relative;
+    flex-direction: column;
+    gap: 3.125vw 0px;
+}
+
+.method-img {
+    position: relative;
+    right: 1.563vw;
+    height: 10.42vw;
+    width: 10.42vw;
+}
+
+.edit-text-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0.104vw;
+    font: 700 4.167vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    left: 0.781vw;
+}
+
+.page-title {
+    position: relative;
+    margin: 0px 0px 3.854vw;
+    font: 700 5.208vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+
+.dropdown-png {
+    position: absolute;
+    width: 0.729vw;
+    height: 1.198vw;
+    right: 1.576vw;
+    transform: rotate(-90deg);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.dropdown-container {
+    position: relative;
+    width: 47.969vw;
+    height: 3.802vw;
+    display: flex;
+    align-items: center;
+}
+
+.dropdownlist {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    justify-content: center;
+    border-color: #c8c8c8;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+    color: #767676 !important;
+    appearance: none;
+    padding: 0.521vw;
+}
+
+    .dropdownlist:hover {
+        background-color: #c8c8c8;
+    }
+
+    .dropdownlist::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+option {
+    padding: 0.521vw;
+    height: 6.777vw
+}
+
+.topic-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47.969vw;
+    justify-content: space-between;
+    height: 2.708vw;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.52vw;
+}
+
+.edit-topic_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-program_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-description_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 19.219vw;
+}
+
+.edit-target_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-deadline_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-image_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-text {
+    position: relative;
+    display: flex;
+    font: 300 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    width: 24.115vw;
+}
+    .edit-text.colon {
+        width: 1.667vw;
+        justify-content: flex-end;
+        position: relative;
+        margin-right: 2.083vw;
+    }
+
+.edit-text-desc {
+    position: relative;
+    display: flex;
+    font: 300 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    letter-spacing: 0.063vw;
+    align-items: flex-start;
+    width: 24.115vw;
+}
+
+.insert-box-big {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47.969vw;
+    justify-content: space-between;
+    height: 18.177vw;
+    background-color: #ffffff;
+    font-size: 1.458vw;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.52vw;
+    border: none;
+    color: #767676
+}
+
+    .insert-box-big:hover {
+        background-color: #C8C8C8;
+    }
+
+    .insert-box-big::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+.date-flex_col {
+    position: relative;
+    display: flex;
+    gap: 1.771vw;
+}
+
+.date-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(47.969vw - 0.521vw - 1.7vw);
+    justify-content: center;
+    font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+    height: 2.708vw;
+    background-color: #ffffff;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.521vw 1.7vw 0.521vw 0.521vw;
+    border: none;
+    color: #767676;
+}
+
+    .date-box:hover {
+        background-color: #C8C8C8;
+    }
+
+    .date-box::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+
+.page-container {
+    
+}
+
+.edit-flex_col {
+    margin: 0px 0px 3.854vw 0px;
+    position: relative;
+    flex-direction: column;
+    gap: 3.125vw 0px;
+}
+
+.method-img {
+    position: relative;
+    right: 1.563vw;
+}
+
+.edit-text-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0.104vw;
+    font: 700 4.167vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    left: 0.781vw;
+}
+
+.box-container {
+    margin: 13.438vw 8.854vw 89.427vw 8.854vw;
+}
+
+.topic-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(47.969vw - 0.521vw - 0.521vw);
+    justify-content: center;
+    height: 2.708vw;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.521vw;
+    font: 400 1.458vw / 1.35 "Helvetica", Helvetica, Arial, serif;
+    color: #767676;
+}
+
+.edit-topic_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-program_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-description_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 19.219vw;
+}
+
+.edit-target_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-image_row {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    height: 3.802vw;
+    align-items: center;
+}
+
+.edit-text-desc {
+    position: relative;
+    display: flex;
+    font: 300 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    letter-spacing: 0.063vw;
+    align-items: flex-start;
+    width: 24.115vw;
+}
+
+.insert-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(47.969vw - 0.521vw - 0.521vw);
+    justify-content: center;
+    font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+    height: 2.708vw;
+    background-color: #ffffff;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.521vw;
+    border: none;
+    color: #767676 !important;
+}
+
+    .insert-box:hover {
+        background-color: #C8C8C8;
+    }
+
+    .insert-box::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+.insert-box-big {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(47.969vw - 0.521vw - 0.521vw);
+    justify-content: space-between;
+    height: 18.177vw;
+    background-color: #ffffff;
+    font-size: 1.458vw;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.52vw;
+    font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+    border: none;
+}
+
+    .insert-box-big:hover {
+        background-color: #C8C8C8;
+    }
+
+    .insert-box-big::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+
+.month-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 17.344vw;
+    justify-content: space-between;
+    font-size: 1.458vw;
+    height: 2.708vw;
+    background-color: #ffffff;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.52vw;
+    border: none;
+
+}
+
+    .month-box:hover {
+        background-color: #C8C8C8;
+    }
+
+    .month-box::placeholder {
+        position: relative;
+        margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+        font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+        color: #767676;
+    }
+
+.year-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 13.854vw;
+    justify-content: space-between;
+    font-size: 1.458vw;
+    height: 2.708vw;
+    background-color: #ffffff;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    outline: 0.052vw solid rgb(200, 200, 200);
+    padding: 0.52vw;
+    border: none;
+}
+
+    .year-box:hover {
+        background-color: #C8C8C8;
+    }
+
+.year::placeholder {
+    position: relative;
+    margin: 1.042vw 1.198vw 2.396vw 1.042vw;
+    font: 400 1.458vw/1.35 "Helvetica", Helvetica, Arial, serif;
+    color: #767676;
+}
+
+.img-box {
+    position: absolute;
+    top: 0.99vw;
+    right: 1.563vw;
+    display: flex;
+    width: 1.354vw;
+    height: 1.719vw;
+    background: var(--src) center center / 110% 110% no-repeat;
+}
+
+
+.checkbox-text{
+    font: 300 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    color:#000000;
+}
+
+.checkbox-button-content {
+    margin: 3.333vw 0px 0px 0px;
+}
+
+.send-request-btn {
+    position: relative;
+    display: flex;
+    width: 18.438vw;
+    font: 700 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.953vw 1.953vw 1.953vw 1.953vw;
+    padding: 0.911vw 0.417vw 0.911vw 0.417vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.send-request-btn:hover{
+background-color: rgb(1, 169, 93);
+    color: rgb(255, 255, 255);
+}
+
+.insert-image {
+    position: absolute;
+    display: flex !important;
+    width: 1.979vw;
+    height: 1.979vw;
+    z-index: 10;
+    right: 1.667vw;
+    background: url(../Assets/ProgramDetail/imagebtn.png) center center / 100% 100% no-repeat;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: none;
+}
+
+.error-text {
+    font: 300 1.458vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #FF0000;
+    margin-left: 26.865vw;
+    margin-top: -1.5vw;
+}
+
+.btns-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.125vw;
+    bottom: 4.271vw;
+    right: 3.854vw; 
+}
+
+.reject-btn {
+    position: relative;
+    display: flex;
+    width: 18.438vw;
+    font: 700 2.083vw / 1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #FF5B5B;
+    text-align: center;
+    border-radius: 1.953vw 1.953vw 1.953vw 1.953vw;
+    padding: 0.911vw 0.417vw 0.911vw 0.417vw;
+    outline: 0.26vw solid #FF5B5B;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+    .reject-btn:hover {
+        background-color: #FF5B5B;
+        color: rgb(255, 255, 255);
+    }

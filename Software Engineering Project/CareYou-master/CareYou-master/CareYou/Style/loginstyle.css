@@ -1,0 +1,298 @@
+﻿body {
+    font-size: 100%;
+}
+
+.login-page-left-flexbox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 4.948vw;
+    bottom: 35vw;
+    left: 4.635vw;
+    width: 20.781vw;
+    min-width: 0px;
+}
+
+.app-title-container {
+    position: relative;
+    margin: 0;
+}
+
+.app-title {
+    font: 500 3.333vw/1.23 "Helvetica Compressed", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.667vw;
+}
+
+.app-title_span0 {
+    font: 700 3.333vw/1.23 "Helvetica Compressed", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+}
+
+.app-title_span1 {
+    font: 700 3.333vw/1.23 "Helvetica Compressed", Helvetica, Arial, serif;
+}
+
+.welcome-text {
+    position: relative;
+    display: flex;
+    margin: 4.688vw 0px 0px 0px;
+    font: 300 1.667vw/1.21 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.sign-in-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2.604vw 0px 0px;
+    font: 400 2.5vw/1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+.loginPage-container {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(246, 248, 250);
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%
+}
+
+.loginPagebg-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 75%;
+    min-height: 100%;
+    background: var(--src) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loginPage-form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 54%;
+    max-height: 33.24%;
+    top: 24.9%;
+    left: 23%;
+    right: 23%;
+}
+
+.loginPage-form-title {
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.email-container {
+    position: relative;
+    display: flex;
+    min-width: 100%;
+}
+
+.emailBox {
+    width: 100%;
+    height: 3.75vw;
+    background-color: #FFFFFF;
+    border: solid #C8C8C8;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    font-size: 1.458vw;
+    padding-left: 0.625vw;
+}
+
+    .emailBox:hover {
+        background-color: #D9D9D9;
+        border-color: #C8C8C8;
+    }
+
+    .emailBox::placeholder {
+        font-family: "Helvetica Regular", Helvetica, Arial, serif;
+        font-size: 1.458vw;
+        line-height: 1.14;
+        color: #767676;
+    }
+
+.passBox {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 3.75vw;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: solid #C8C8C8;
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    font-size: 1.458vw;
+    padding-left: 0.625vw;
+}
+
+    .passBox:hover {
+        background-color: #D9D9D9;
+        border-color: #C8C8C8;
+    }
+
+    .passBox::placeholder {
+        font-family: "Helvetica Regular", Helvetica, Arial, serif;
+        font-size: 1.458vw;
+        line-height: 1.14;
+        color: #767676;
+    }
+
+input:focus-visible {
+    outline: none;
+}
+
+.show-password {
+    position: absolute;
+    right: 1.146vw;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 1.419vw;
+}
+
+.pwflexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.flexColEMPS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.604vw;
+}
+
+.acc-det {
+    font: 400 1.563vw/1.13 "Helvetica Regular", Helvetica, Arial, serif;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 0;
+}
+
+.noAcc {
+    font: 400 1.458vw/1.13 "Helvetica Regular", Helvetica, Arial, serif;
+    color: #2e2e2e;
+    text-align: center;
+    margin: 0;
+}
+
+.forgPass {
+    font: 400 1.458vw/1.13 "Helvetica Regular", Helvetica, Arial, serif;
+    color: #2e2e2e;
+    text-decoration: underline;
+    text-align: center;
+}
+
+    .forgPass:hover {
+        color: #0000ee;
+        text-decoration: underline;
+    }
+
+.line {
+    position: absolute;
+    bottom: 16.4%;
+    right: 0;
+    width: 97%;
+    height: 0.052vw;
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0px 0.208vw 0.208vw 0px rgba(0, 0, 0, 0.247);
+}
+
+.Lgflex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 2vw 0px;
+}
+
+.signRow {
+    position: relative;
+    display: flex;
+    gap: 0px 0.417vw;
+    width: 19.01vw;
+    min-width: 0px;
+}
+
+.barRowforg_sign {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 5vw;
+    width: 100%;
+}
+
+.flex_rowbar {
+    position: relative;
+    display: flex;
+    gap: 0px 0.365vw;
+    min-width: 0px;
+}
+
+.login-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 7.292vw;
+    height: 3.177vw;
+    font: 400 1.458vw / 1.14 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(1, 169, 93);
+    border-radius: 0.625vw 0.625vw 0.625vw 0.625vw;
+    padding: 0.729vw 1.146vw 0.729vw 1.146vw;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+    .login-btn:hover {
+        background-color: #012D19;
+    }
+
+.bottom-container {
+    position: absolute;
+    bottom: 1.302vw;
+    right: 3.75vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 1.406vw 0px;
+}
+
+.agree-flexRow {
+    position: relative;
+    display: flex;
+    gap: 0px 0.313vw;
+}
+
+.byclick {
+    position: relative;
+    min-width: 0px;
+    font: 400 1.25vw/1.16 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(46, 46, 46);
+    margin: 0;
+}
+
+.tos {
+    position: relative;
+    min-width: 0px;
+    font: 400 1.25vw/1.16 "Helvetica", Helvetica, Arial, serif;
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
+    margin: 0;
+}
+
+.error-text {
+    color: red;
+    font: 400 1.354vw/1.13 "Helvetica Regular", Helvetica, Arial, serif;
+    margin: -2vw 0 -1vw 0;
+}

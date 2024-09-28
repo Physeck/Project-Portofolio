@@ -1,0 +1,777 @@
+﻿body {
+    background-color: #FFFFFF;
+}
+
+.background {
+    position: absolute;
+    background-image: linear-gradient(180deg, #CEF6FF, white);
+    height: 60%;
+    width: 100%;
+    top: 0;
+
+    z-index: -1;
+}
+
+/*Top Donation Page*/
+.tDContainer {
+    width: 80%;
+    margin-top: 10.104vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tDLbl {
+    font-size: 4.167vw;
+    font-weight: bold;
+    margin-bottom: 5.208vw;
+}
+
+.tDFilterBtn {
+    margin: 1.042vw auto 0 auto;
+    display: flex;
+}
+
+.tDIndividual {
+    margin-right: 0.208vw;
+}
+
+.tDOrganization, .tDIndividual {
+    width: calc(50% - 0.104vw);
+    border-bottom: 0.052vw solid #012D19;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: #01A95D;
+    font-size: 2.083vw;
+    font-weight: bold;
+    padding-bottom: 1.198vw;
+    padding-top: 1.198vw;
+}
+
+.tDOrganization:hover, .tDIndividual:hover {
+    border-bottom-width: 0.26vw;
+    cursor: pointer;
+}
+
+.top3 {
+    margin-top: 2.604vw;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top3 {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.allTop3 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top3Container {
+    background-color: #012D19;
+    border-radius: 1.042vw;
+    /*padding: 2.604vw 56px 2.604vw 56px;*/
+    padding: 2% 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.15s;
+}
+
+.top3Container:hover {
+    background-color: #01A95D;
+}
+
+.top3Container:hover .donatedTD3 {
+    color: #012D19;
+}
+
+.innerTD3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: peachpuff;*/
+}
+
+.rankTD3 {
+    font-size: 2.708vw;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.fir {
+    color: #FEDC97;
+}
+
+.first {
+    color: #FEDC97;
+    font-size: 2.188vw;
+}
+
+.sec {
+    color: #D2FFE0;
+    font-size: 2.188vw;
+}
+
+.secnd {
+    color: #D2FFE0;
+    font-size: 1.667vw;
+}
+
+.thi {
+    color: #CEF6FF;
+    font-size: 1.979vw;
+}
+
+.third {
+    color: #CEF6FF;
+    font-size: 1.458vw;
+}
+
+.ppTD3 {
+    width: 100%;
+    margin: 0 auto 2.604vw auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15.625vw;
+    height: 15.625vw;
+    outline-style: solid;
+    outline-color: #01A95D;
+    outline-width: 0.26vw;
+    outline-offset: 0.26vw;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.nameTD3 {
+    font-size: 1.979vw;
+    margin-bottom: 0.521vw;
+}
+
+.donatedTD3 {
+    color: #01A95D;
+    font-size: 1.667vw;
+    margin-top: 0.521vw;
+}
+
+.amountTD3 {
+    font-size: 2.5vw;
+    margin-top: 0.417vw;
+}
+
+.top10 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.906vw;
+    border-radius: 4.167vw 4.167vw 0 0px;
+    box-shadow: 0 0.781vw 2.083vw;
+}
+
+.top4Above {
+    width: 100%;
+    /*background-color: rebeccapurple;*/
+    border-radius: 4.167vw 4.167vw 0 0px;
+}
+
+.top4LB {
+}
+
+.top4to10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    box-shadow: 0 0.208vw 0.104vw -0.104vw rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    width: 60.365vw;
+}
+
+/*.top4to10:hover{
+    background-color:#C8C8C8;
+}*/
+
+.rankTD4 {
+    color: rgba(1,169,93,0.5);
+    font-size: 3.021vw;
+    margin-right: 3.802vw;
+    font-weight: bold;
+    min-width: 3.542vw;
+}
+
+.ppTD4 {
+    width: 10%;
+    margin-right: 2.604vw;
+    width: 6.771vw;
+    height: 6.771vw;
+    border-color: #01A95D;
+    border-width: 0.052vw;
+    border-spacing: 0.469vw;
+    outline-style: solid;
+    outline-color: #01A95D;
+    outline-width: 0.26vw;
+    outline-offset: 0.26vw;
+    border-radius: 50%;
+}
+
+.nameTD4 {
+    min-width: 26.042vw;
+    font-size: 2.083vw;
+    font-weight: bold;
+    color: black;
+}
+
+.donateContainer {
+    text-align: right;
+    float: right;
+    min-width: 15.625vw;
+}
+
+.donateTD4Lbl {
+    color: #11698E;
+    font-weight: bold;
+    font-size: 1.667vw;
+}
+
+.donateTD4 {
+    font-size: 2.708vw;
+    color: #01A95D;
+}
+
+/*Update Profile*/
+
+.profileContainer {
+    margin-top: 10.052vw;
+    margin-bottom: 40vw;
+}
+
+.detailProfileContainer {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E3F5F2;
+    border-radius: 4.167vw;
+    padding: 2% 3%;
+    height: fit-content;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 0.521vw 1.042vw 0px rgba(0, 0, 0, 0.149);
+}
+
+.PLogo {
+    width: 40%;
+    margin-bottom: 0.521vw;
+}
+
+.detailDataPP {
+    display: block;
+}
+
+.detailPP {
+    display: flex;
+    margin-top: 2.563vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.uPPp {
+    width: 40%;
+    margin-right: 10%;
+    border-radius: 50%;
+    outline-style: solid;
+    outline-color: #01A95D;
+    outline-width: 0.4vw;
+    outline-offset: 0.52vw;
+    cursor: pointer;
+}
+.uPPp.disabled {
+    cursor: default;
+}
+
+.file-input {
+    display: none;
+}
+
+.PPName {
+    font-size: 3.646vw;
+    font-weight: bold;
+}
+
+.PPEmail {
+    font-size: 1.875vw;
+    margin-top: 1.042vw;
+    margin-bottom: 1.042vw;
+}
+
+.UPBtn {
+    border-radius: 2.604vw;
+    padding: 0.417vw;
+    background-color: transparent;
+    border: 0.26vw solid #01A95D;
+    font-size: 1.042vw;
+    color: #01A95D;
+    margin-bottom: 1.042vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.UPBtn:hover {
+    background-color: #01A95D;
+    color: white
+}
+
+.PPNameTBC, .PPEmailTBC, .PPCPassTBC, .PPPassTBC {
+    margin-bottom: 0.26vw;
+}
+
+.PPNameTB, .PPEmailTB, .PPCPassTB, .PPPassTB {
+    font-size: 1.042vw;
+    border-radius: 0.625vw;
+    color: #767676;
+    font-weight: bold;
+    padding: 0.417vw;
+    border: none;
+}
+
+.errorlblUp {
+    color: red;
+    font-size: 0.521vw;
+}
+
+.changePassU {
+    text-decoration: none;
+    color: #19456B;
+    font-size: 0.833vw;
+    font-weight: bold;
+    margin-top: 0.26vw;
+}
+
+.changePassU:hover {
+    color: #11698E;
+}
+
+.changePassUP {
+    margin-bottom: 1.042vw;
+    margin-top: 0.26vw;
+}
+
+.regcom {
+    margin-bottom: 1.198vw;
+}
+
+.regComlnk {
+    text-decoration: none;
+    color: #19456B;
+    font-size: 0.833vw;
+    font-weight: bold;
+}
+
+.regComlnk:hover {
+    color: #11698E;
+}
+
+.uPdetailInfoContainer {
+    display: flex;
+}
+
+.uPlogoutContainer {
+    width: 100%;
+    overflow: auto;
+    margin-top: 1.042vw;
+}
+
+.uPLogoutBtn {
+    float: right;
+    border-radius: 2.604vw;
+    padding: 0.417vw;
+    background-color: transparent;
+    border: 0.26vw solid #FF5B5B;
+    font-size: 1.042vw;
+    color: #FF5B5B;
+    font-weight: bold;
+    /*margin-top: 2.604vw;*/
+    cursor: pointer;
+}
+
+.uPLogoutBtn:hover {
+    background-color: #FF5B5B;
+    color: white
+}
+
+.totalDonation, .rank {
+    margin-right: 1.302vw;
+}
+
+.totalDonation, .rank, .joinDate {
+    text-align: center;
+    font-size: 1.042vw;
+    color: #767676;
+}
+
+.totDonation, .uPrank, .uPJD {
+    font-size: 1.563vw;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.521vw;
+}
+
+.uPBadgeContainer {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding: calc(10.417vw + 2%) 4% 4% 4%;
+    box-shadow: 0 0.781vw 2.083vw;
+    border-radius: 4.167vw;
+    margin-top: -10.417vw;
+    background-color: white;
+}
+
+.uPBadgeHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.uPBadgeLbl {
+    font-size: 3.646vw;
+    float: right;
+    font-weight: bold;
+}
+
+.uPTotBadge {
+    align-items: center;
+    font-size: 2.292vw;
+    color: #11698E;
+    width: fit-content;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.uPtotLbl {
+    font-size: 1.354vw;
+    font-weight: normal;
+}
+
+.uPBadges {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.563vw;
+}
+
+.uPBadge {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 1.042vw;
+}
+
+.noBadgeLbl {
+    color: #767676;
+    font-size: 2.604vw;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.042vw;
+}
+
+/*Profile Page*/
+.profilePage {
+    margin-top: 10.052vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50vw;
+    display: flex;
+}
+
+.detailProfile {
+    background-color: #E3F5F2;
+    border-radius: 4.167vw;
+    box-shadow: 0 0.781vw 2.083vw;
+    padding: 3.177vw;
+    min-width: calc(32.708vw - 3.177vw - 3.177vw);
+    min-height: calc(42.135vw - 3.177vw - 3.177vw);
+    margin-right: 5.365vw;
+    /*text-align: center;*/
+}
+
+.uPLogo {
+    width: 13.899vw;
+    height: 2.034vw;
+    margin-bottom: 1.042vw;
+}
+
+/* Verified Image */
+
+.verified-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    max-width: 13.333vw;
+    height: 2.031vw;
+    background-color: rgb(189, 255, 225);
+    border-radius: 0.833vw 0.833vw 0.833vw 0.833vw;
+    outline: 0.26vw solid rgb(1, 169, 93);
+}
+
+.verified-image-flexbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px 0.214vw;
+    margin: 0.26vw 0.26vw 0.208vw 0.573vw;
+}
+
+.verified-image-png {
+    position: relative;
+    width: 1.615vw;
+    height: 1.615vw;
+}
+
+.verified-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0px;
+    font: 700 1.042vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+}
+
+/*------------------------------------*/
+
+
+.pP {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.653vw;
+}
+
+.borderPP {
+    width: 60%;
+    height: fit-content;
+    border-radius: 50%;
+    border: 0.26vw solid #19456B;
+    margin-bottom: 2.083vw;
+    display: flex;
+    align-items: center;
+}
+
+.pPp{
+    position: relative;
+    width: 100%;
+   
+}
+
+.ProfileName {
+    color: #012D19;
+    font-size: 2.083vw;
+    font-weight: bold;
+    margin-bottom: 2.083vw;
+    text-align: center;
+}
+
+.pdetailInfoContainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.pBadgeContainer {
+    position: relative;
+    float: right;
+    width: 63%;
+    margin-left: auto;
+}
+
+.pBadgeLbl {
+    font-size: 3.646vw;
+    font-weight: bold;
+    margin-bottom: 1.823vw;
+}
+
+.pBadge {
+    box-shadow: 0 0.781vw 2.083vw;
+    border-radius: 4.167vw;
+    background-color: white;
+    padding: 4%;
+    margin-top: 1.823vw;
+}
+
+.pTotBadge {
+    align-items: center;
+    font-size: 2.292vw;
+    color: #11698E;
+    width: fit-content;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+}
+
+.vwP{
+    text-align: center;
+}
+
+.pViewPrgrm {
+    border-radius: 2.604vw;
+    padding: 0.417vw;
+    background-color: transparent;
+    border: 0.26vw solid #01A95D;
+    font-size: 1.042vw;
+    color: #01A95D;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.563vw;
+    justify-self: center;
+}
+
+.pViewPrgrm:hover {
+    background-color: #01A95D;
+    color: white;
+}
+
+/*History Page*/
+
+.HistoryPage {
+    margin-top: 10.052vw;
+    margin-bottom: 30.427vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HistoryTitle {
+    font-size: 3.646vw;
+    font-weight: bold;
+    color: #012D19;
+}
+
+.HistdescContainer {
+    margin-top: 1.042vw;
+    margin-bottom: 3.906vw;
+}
+
+.Histdesc {
+    color: #012D19;
+    font-size: 2.083vw;
+}
+
+.filterHistory {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.dDH {
+    font-size: 1.563vw;
+    color: #767676;
+    padding: 1.302vw 3.646vw;
+    border-radius: 3.125vw;
+    box-shadow: 0 0.208vw 0.104vw -0.104vw rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-left: 0.521vw;
+    margin-right: 0.521vw;
+}
+
+.historyDataContainer {
+    margin-top: 2.604vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.historyDataInnerContainer{
+    margin-bottom: 1.042vw;
+    transition-duration: 0.15s;
+}
+    .historyDataInnerContainer:hover {
+        transform: scale(1.05);
+        z-index: 10;
+    }
+
+.historyData {
+    display: flex;
+    text-decoration: none;
+    color: #012D19;
+    align-items: center;
+    padding: 3% 5%;
+    margin-bottom: 5.208vw;
+    border-radius: 4.167vw;
+    box-shadow: 0 0.521vw 1.042vw rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    margin: auto;
+    z-index: -1;
+}
+
+.hImageContainer{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.programH {
+    width: 100%;
+}
+
+.historyDetail {
+    margin-left: 2%;
+    width: 40%;
+    color: #012D19;
+}
+
+.hDateContainer {
+    font-size: 1.042vw;
+    color: #11698E;
+}
+
+.hProgramTitle {
+    font-size: 1.458vw;
+    margin-top: 1.042vw;
+    margin-bottom: 1.042vw;
+}
+
+.hProgramFundraiser {
+    font-size: 1.25vw;
+    color: #012D19;
+}
+
+.hProgramAmount {
+    position: relative;
+    color: #01A95D;
+    font-size: 2.188vw;
+    text-align: right;
+    float: right;
+    justify-content: flex-end;
+}
+
+.noTrans {
+    text-align: center;
+    font-size: 2.188vw;
+    margin-top: 2.604vw;
+    color: #767676;
+}

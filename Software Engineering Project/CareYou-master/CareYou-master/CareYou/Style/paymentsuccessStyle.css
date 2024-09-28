@@ -1,0 +1,204 @@
+﻿
+
+
+.payment-success {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 248, 250);
+    overflow: hidden;
+}
+
+.payment-success-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.719vw 0px;
+    margin: 29.219vw auto 5.677vw;
+    width: 89.58%;
+}
+
+.payment-success-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 53.26%;
+    background-color: rgb(1, 169, 93);
+    height: 28.906vw;
+    border-radius: 3.125vw 3.125vw 3.125vw 3.125vw;
+    box-shadow: 0px 0.781vw 2.083vw 0px rgba(0, 0, 0, 0.149);
+}
+
+.payment-success-checkmark-container {
+    position: absolute;
+    top: -10.365vw;
+    left: 15.104vw;
+    display: flex;
+    flex-direction: column;
+    width: 17.292vw;
+    height: 17.292vw;
+    background-color: #01A95D;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.image {
+    position: relative;
+    margin: 1.563vw 1.563vw 1.563vw 1.563vw;
+    width: 14.115vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.image.visible{
+    opacity: 1;
+}
+
+.payment-success-textbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3.229vw 0px;
+    width: 40.885vw;
+    height: 17.708vw;
+    z-index: 11;
+    justify-content: center;
+}
+
+.payment-success-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700 2.5vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0.625vw 0 0 0;
+}
+
+.payment-success-desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 500 2.083vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+
+.comment-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(246, 248, 250);
+    border-radius: 0px 0px 5.208vw 5.208vw;
+    box-shadow: 0px 2.604vw 2.083vw 0px rgba(0, 0, 0, 0.2);
+}
+
+.comment-flexbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.292vw auto 4.167vw;
+    width: 87.56%;
+}
+
+.comment-title {
+    margin: 0;
+    position: relative;
+    font: 700 4.167vw/0.98 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+}
+
+.comment-desc {
+    position: relative;
+    margin: 0.521vw 0px 0px;
+    font: 500 1.823vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgba(1, 45, 25, 0.749);
+}
+
+.comment-textbox {
+    position: relative;
+    margin: 2.865vw 0px 0px;
+    width: calc(99.6% - 2.396vw);
+    flex-direction: row;
+    display: flex;
+    padding: 2.031vw 1.198vw 2.031vw 1.198vw;
+    align-items: center;
+    font: 500 3.125vw/0.99 "Helvetica Neue", Helvetica, Arial, serif;
+    color: #545454;
+    text-align: left;
+    background-color: #F6F8FA;
+    height: 7.188vw;
+    border: none;
+    border-radius: 1.042vw 1.042vw 1.042vw 1.042vw;
+    outline: 0.052vw solid #7B7C7D;
+    outline-offset: -0.052vw;
+    transition-duration: 0.1s;
+    transition-property: background-color;
+}
+.currency-amount:hover {
+    background-color: #F0F0F0;
+}
+
+.submit-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 5.208vw auto 0px;
+    width: 93.33%;
+    font: 700 3.333vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 169, 93);
+    text-align: center;
+    border-radius: 1.823vw 1.823vw 1.823vw 1.823vw;
+    padding: 1.667vw 0.417vw 1.667vw 0.417vw;
+    outline: 0.417vw solid rgb(1, 169, 93);
+    outline-offset: -0.417vw;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+}
+
+    .submit-btn:hover {
+        background-color: rgb(1, 169, 93);
+        color: white;
+    }
+
+.back-flexbox {
+    position: absolute;
+    top: 13.073vw;
+    right: 67.76vw;
+    bottom: auto;
+    left: 8.698vw;
+    display: flex;
+    align-items: center;
+    gap: 0px 0.677vw;
+    width: 23.542vw;
+    height: 5.208vw;
+}
+
+.back-btn {
+    position: relative;
+    cursor: pointer;
+    width: 5.208vw;
+    min-width: 0px;
+    height: 5.208vw;
+    filter: drop-shadow(0px 0px 2.083vw rgba(0, 0, 0, 0.149));
+}
+
+.back-desc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0px;
+    font: 500 1.458vw/1 "Helvetica Neue", Helvetica, Arial, serif;
+    color: rgb(1, 45, 25);
+    text-align: center;
+}
